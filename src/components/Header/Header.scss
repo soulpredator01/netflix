@@ -1,0 +1,32 @@
+$bg: rgb(16, 16, 16);
+
+.header{
+    height: 100px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    img{
+        height: 100%;
+    }
+    div{
+        width: 100%;
+        margin-left: 5vmax;
+        a{
+            margin: 2vmax;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+    }
+    svg{
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            color: rgb(186, 185, 185);
+            transform: scale(1.2);
+        }
+    }
+}
